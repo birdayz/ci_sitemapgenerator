@@ -97,7 +97,7 @@ class GoogleSitemapImage implements Renderable
     public function render()
     {
         $ret = '<image:image>';
-        $ret .= '<image:loc>' . $this->loc . '<image:locc>';
+        $ret .= '<image:loc>' . $this->loc . '</image:loc>';
         $ret .= '</image:image>';
         return $ret;
     }
